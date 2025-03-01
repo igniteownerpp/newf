@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, CallbackContext
 
 TELEGRAM_BOT_TOKEN = '7686606251:AAF14WbWcb43b1F4UOkjbnpXg4co-QWvqfI'
 ADMIN_USER_ID = 1604629264
-CHANNELS = ['@paidserver07', '@LostBoiServer']
+CHANNELS = ['@NxTLvL07', '@NewServer07']
 attack_in_progress = {}
 user_attack_count = {}
 approved_users = set()
