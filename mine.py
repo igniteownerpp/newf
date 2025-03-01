@@ -24,8 +24,8 @@ async def is_member(update: Update, context: CallbackContext) -> bool:
                     approved_users.remove(user_id)  # Remove from approved users
                 join_message = (
                     "❌ You must join both channels before using this bot:\n"
-                    "➡️ [Join Channel 1](https://t.me/paidserver07)\n"
-                    "➡️ [Join Channel 2](https://t.me/LostBoiServer)"
+                    "➡️ [Join Channel 1](https://t.me/NxTLvL07)\n"
+                    "➡️ [Join Channel 2](https://t.me/NewServer07)"
                 )
                 await update.message.reply_text(join_message, parse_mode='Markdown', disable_web_page_preview=True)
                 return False
