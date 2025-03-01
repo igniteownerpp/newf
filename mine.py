@@ -38,6 +38,7 @@ async def start(update: Update, context: CallbackContext):
         "WELCOME TO PARADOX SERVER\n"
         "PRIMIUM DDOS BOT\n"
         "OWNER :- @LostBoiXD\n"
+        "USE `/attack` ip port Time\n"
     )
     await update.message.reply_text(text=message, parse_mode='Markdown', disable_web_page_preview=True)
 
